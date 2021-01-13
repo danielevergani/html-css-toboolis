@@ -1,0 +1,123 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body{
+  background-color: #cce3de;
+}
+/* intestazione e logo */
+header{
+  background-color: white;
+}
+
+.logo{
+  padding: 10px 10px 5px;
+  vertical-align: middle;
+}
+
+h1{
+  display: inline;
+  vertical-align: middle;
+  font-weight: bolder;
+}
+/* end intestazione e logo */
+
+main{
+  background-color: white;
+  border-radius: 10px;
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+/* sezione bottoni */
+.buttons-section{
+  padding: 15px 30px 10px 30px;
+}
+
+.button{
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.addtask{
+  background-color: #00b4d8;
+  color: white;
+}
+
+.addsection{
+  color: #6b9080;
+  background-color: white;
+}
+/* end sezione bottoni */
+
+hr{
+  border: 1px solid #cce3de;
+}
+
+/* liste */
+.list-section{
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+ul{
+  list-style: none;
+}
+
+li{
+  margin-top: 15px;
+}
+
+.step{
+  font-weight: bolder;
+  margin-top: 20px
+}
+
+.subject{
+  font-size: 12px;
+}
+
+.simbol{
+  border-radius: 100%;
+  border: 1px solid;
+  padding: 1px 2px;
+  font-weight: bold;
+  font-size: 8px;
+}
+
+.done{
+  color: #00f756;
+}
+
+.undone{
+  color: #F51D1D;
+}
+
+.arguments{
+  color: white;
+  border-radius: 25px;
+  font-size: 8px;
+  padding: 3px;
+}
+
+.arguments-web{
+  background-color: #5F90FA;
+}
+
+.arguments-mobile{
+  background-color: #DC00ED;
+}
+
+.arguments-email{
+  background-color: #00ED1C;
+}
+
+.arguments-del{
+  display: none;
+}
