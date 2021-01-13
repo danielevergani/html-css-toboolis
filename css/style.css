@@ -55,7 +55,7 @@ main{
 }
 /* end sezione bottoni */
 
-hr{
+#separator{
   border: 1px solid #cce3de;
 }
 
