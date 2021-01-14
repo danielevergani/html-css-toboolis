@@ -38,7 +38,7 @@ main{
   padding: 15px 30px 10px 30px;
 }
 
-.button{
+.buttons-section .button{
   border: 1px solid;
   border-radius: 5px;
   padding: 5px;
@@ -100,6 +100,11 @@ ul .step{
 }
 
 .arguments{
+  display: inline-block;
+  width: 50px;
+  heigh: 18px;
+  text-align: center;
+  vertical-align: text-top;
   color: white;
   border-radius: 25px;
   font-size: 8px;
