@@ -102,9 +102,8 @@ ul .step{
 .arguments{
   display: inline-block;
   width: 50px;
-  heigh: 18px;
+  height: 18px;
   text-align: center;
-  vertical-align: text-top;
   color: white;
   border-radius: 25px;
   font-size: 8px;
